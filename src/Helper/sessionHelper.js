@@ -10,8 +10,7 @@ class sessionHelper {
     localStorage.setItem("userDetails", JSON.stringify(userDetails));
   }
   getUserDetails() {
-    const userDetailsString = localStorage.getItem("userDetails");
-    return userDetailsString ? JSON.parse(userDetailsString) : null;
+    return JSON.parse(localStorage.getItem("userDetails"));
   }
 
   setEmail(email) {

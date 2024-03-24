@@ -57,9 +57,9 @@ const Login = () => {
                   <span>
                     <Link
                       className='text-center ms-3 h6 animated fadeInUp'
-                      to='/Registration'
+                      to='/registration'
                     >
-                      Sign Up{" "}
+                      Sign Up
                     </Link>
                     <span className='ms-1'>|</span>
                     <Link
